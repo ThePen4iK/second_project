@@ -810,6 +810,9 @@ button {
     padding-top: 0;
   }
 }
+.gallery__info-slide {
+  width: 296px !important;
+}
 .gallery__text {
   font-family: "SFProDisplay";
   font-weight: 400;
@@ -853,7 +856,7 @@ button {
   top: 10%;
   right: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .gallery__navigation {
     display: none;
   }

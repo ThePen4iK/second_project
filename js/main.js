@@ -96,7 +96,7 @@ const swiper = new Swiper(".gallery__slider", {
     // initialSlide: 0,
   });
 
-    const swiperProject = new Swiper(".project-swiper", {
+const swiperProject = new Swiper(".project-swiper", {
     loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -113,6 +113,7 @@ if(document.documentElement.clientWidth <= 768){
 }
 if(document.documentElement.clientWidth <= 576) {
   const swiperMobileInfo = new Swiper('.gallery__info-slider',{
+    loop: true,
     slidesPerView: 2,
     spaceBetween: 30,
   });
